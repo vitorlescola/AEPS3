@@ -1,0 +1,31 @@
+body{
+    background-color: aliceblue;
+}
+
+.parag{
+    background-color: rgba(0, 255, 255, 0.5);
+    border: solid black 1px;
+    width: 100%;
+}
+
+.slide-left{
+    opacity: 0;
+    transform: translateX(-150px);
+    transition: all 1s ease-out;
+}
+
+.slide-left.show{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.slide-right{
+    opacity: 0;
+    transform: translateX(150px);
+    transition: all 1s ease-out;
+}
+
+.slide-right.show{
+    opacity: 1;
+    transform: translateX(0);
+}
