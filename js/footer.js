@@ -1,6 +1,6 @@
 function footer(){
     document.getElementById("footer").innerHTML=`
-    <footer class="bg-info text-light sticky-bottom">
+    <footer class="text-light sticky-bottom" style="background-color: #F49208;>
         <div class="container">
             <div class="row">
 
@@ -32,9 +32,9 @@ function footer(){
             <div class="col-md-3 mb-4">
                 <h5>navegação</h5>
                 <ul class="list-unstyled">
-                <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                <li><a href="/index.html" class="text-light text-decoration-none">Home</a></li>
                 <li><a href="#" class="text-light text-decoration-none">Sobre</a></li>
-                <li><a href="#" class="text-light text-decoration-none">Login</a></li>
+                <li><a href="/html/login.html" class="text-light text-decoration-none">Login</a></li>
                 </ul>
             </div>
 

@@ -3,9 +3,10 @@ body{
 }
 
 .parag{
-    background-color: rgba(0, 255, 255, 0.5);
+    background-color: rgba(228, 143, 24,0.3);
     border: solid black 1px;
     width: 100%;
+    box-shadow: 3px 3px 5px black;
 }
 
 .slide-left{
