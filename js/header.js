@@ -53,7 +53,7 @@ function header(v){
                 <a class="nav-link" href="#">Medalhas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Usuario</a>
+                <a class="nav-link" href="/html/perfil.html">Usuario</a>
             </li>
             </ul>
         </div>

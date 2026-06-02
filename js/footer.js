@@ -16,9 +16,9 @@ function footer(){
                 <ul class="list-unstyled">
                 <li>Email: email@email.com</li>
                 <li>Telefone: 1234-5678</li>
-                <li>Twitter: <a class="text-reset text-decoration-none" href="https://www.youtube.com/@viniccius13">@X</a></li>
-                <li>Instagram: <a class="text-reset text-decoration-none" href="https://www.youtube.com/@viniccius13">@aaaa</a></li>
-                <li>Youtube: <a class="text-reset text-decoration-none" href="https://www.youtube.com/@viniccius13">canal</a></li>
+                <li>Twitter: <a class="text-reset text-decoration-none" href="#">@X</a></li>
+                <li>Instagram: <a class="text-reset text-decoration-none" href="#">@aaaa</a></li>
+                <li>Youtube: <a class="text-reset text-decoration-none" href="#">canal</a></li>
                 </ul>
             </div>
 
