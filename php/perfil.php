@@ -31,9 +31,9 @@
         <a href="http://localhost/AEPS3//html/menu.html">
             <button class="btn btn-light profile-option">Sair</button>
         </a>
-        <a href="http://localhost/AEPS3">
-            <button class="btn btn-light profile-option">Logout</button>
-        </a>
+        <form action="<?php htmlspecialchars($_SERVER["PHP_SELF"])?>" method="post">
+            <input type="submit" class="btn btn-light profile-option" value="Logout"></input>
+        </form>
     </div>
 
     <div class="modal fade" id="confirmDeleteModal" tabindex="-1" aria-labelledby="confirmDeleteLabel" aria-hidden="true">
@@ -73,7 +73,7 @@
         </div>
     </div>
 
-    <form id="logoutForm" method="post" style="display: none;"></form>
+    
     
     <script>
         function previewImage(event) {
@@ -93,3 +93,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+<?php
+    if($_SERVER["REQUEST_METHOD"]=="POST"){
+            session_destroy();
+            header("Location: http://localhost/AEPS3");
+            exit();
+    }
+?>
