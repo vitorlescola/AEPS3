@@ -5,7 +5,7 @@ function footer(){
             <div class="row">
 
             <div class="col-md-3 mb-4">
-                <img src="/img/logo.png" alt="Logo" class="img-fluid mb-3" style="max-width: 150px;">
+                <img src="http://localhost/AEPS3/img/logo.png" alt="Logo" class="img-fluid mb-3" style="max-width: 150px;">
                 <p class="small">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores illo alias molestias saepe explicabo accusantium.
                 </p>
@@ -34,7 +34,7 @@ function footer(){
                 <ul class="list-unstyled">
                 <li><a href="/index.html" class="text-light text-decoration-none">Home</a></li>
                 <li><a href="#" class="text-light text-decoration-none">Sobre</a></li>
-                <li><a href="/html/login.html" class="text-light text-decoration-none">Login</a></li>
+                <li><a href="http://localhost/AEPS3/php/login.php" class="text-light text-decoration-none">Login</a></li>
                 </ul>
             </div>
 

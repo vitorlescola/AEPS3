@@ -8,7 +8,7 @@ function header(v){
         <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarTogglerDemo01">
             <ul class="navbar-nav mr-0 mt-2 mt-lg-0">
              <li class="nav-item">
-              <a class="navbar-brand" href="/index.html"><img src="/img/logo.png" width="100px" height="100px" alt="WebEdu"></a>
+              <a class="navbar-brand" href="http://localhost/AEPS3/index.php"><img src="http://localhost/AEPS3/img/logo.png" width="100px" height="100px" alt="WebEdu"></a>
              </li>
             <li class="nav-item align-self-center">
                 <a class="nav-link" href="#">Sobre</a>
@@ -19,10 +19,10 @@ function header(v){
             </ul>
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="/html/login.html">Fazer login</a>
+                <a class="nav-link" href="http://localhost/AEPS3/php/login.php">Fazer login</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/html/login.html">Criar conta</a>
+                <a class="nav-link" href="http://localhost/AEPS3/php/login.php">Criar conta</a>
             </li>
             </ul>
         </div>
@@ -36,7 +36,7 @@ function header(v){
         <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarTogglerDemo01">
             <ul class="navbar-nav mr-0 mt-2 mt-lg-0">
              <li class="nav-item">
-              <a class="navbar-brand" href="/index.html"><img src="/img/logo.png" width="100px" height="100px" alt="WebEdu"></a>
+              <a class="navbar-brand" href="http://localhost/AEPS3/index.php"><img src="http://localhost/AEPS3/img/logo.png" width="100px" height="100px" alt="WebEdu"></a>
              </li>
             <li class="nav-item align-self-center">
                 <a class="nav-link" href="#">Sobre</a>
@@ -47,13 +47,13 @@ function header(v){
             </ul>
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
             <li class="nav-item">
-                <a class="nav-link" href="/html/quiz.html">Level</a>
+                <a class="nav-link" href="http://localhost/AEPS3//html/quiz.html">Level</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Medalhas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/html/perfil.html">Usuario</a>
+                <a class="nav-link" href="http://localhost/AEPS3//php/perfil.php">Usuario</a>
             </li>
             </ul>
         </div>
